@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exhibition Menu | Bar SeaSalt</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600&family=Noto+Serif+JP:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/animations.css">
+    <style>
+        .menu-list {
+            margin-top: 3rem;
+            display: flex;
+            flex-direction: column;
+            gap: 3.5rem;
+        }
+        .menu-item {
+            padding-left: 1.5rem;
+            border-left: 1px solid var(--border-color);
+            transition: transform 0.4s ease, border-color 0.4s ease;
+        }
+        .menu-item:hover {
+            transform: translateX(8px);
+            border-left-color: var(--accent-color);
+        }
+        .menu-name {
+            font-size: 1.4rem;
+            color: var(--accent-color);
+            margin-bottom: 0.5rem;
+            letter-spacing: 0.05em;
+        }
+        .menu-ingredients {
+            font-size: 0.8rem;
+            color: var(--text-muted);
+            margin-bottom: 1.2rem;
+            font-family: var(--font-serif);
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+        }
+        .menu-desc {
+            font-size: 0.95rem;
+            line-height: 1.9;
+            color: var(--text-main);
+            font-weight: 300;
+        }
+    </style>
+</head>
+<body class="fade-in">
+    <header class="global-header">
+        <h1 class="logo"><a href="index.html">Bar SeaSalt</a></h1>
+        <button class="hamburger-menu" aria-label="メニューを開く" id="menu-toggle">
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+        </button>
+        <nav class="global-nav" id="global-nav">
+            <ul>
+                <li><a href="concept.html">Concept</a></li>
+                <li><a href="menu.html" class="active dynamic-menu-link">Menu</a></li>
+                <li><a href="access.html">Access</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="page-main">
+        <section class="container section-inner fade-in-up delay-1">
+            <h2 class="section-title">Current Exhibition</h2>
+            <p class="section-desc">本日のアートワーク（メニュー一覧）</p>
+            
+            <ul class="menu-list" id="menu-list">
+                <!-- menuUtils.js によりここにJSONからカクテル情報が展開されます -->
+            </ul>
+        </section>
+    </main>
+
+    <footer class="global-footer">
+        <p>&copy; <span id="current-year"></span> Bar SeaSalt. All rights reserved.</p>
+    </footer>
+
+    <script src="./js/main.js"></script>
+    <script src="./js/menuUtils.js"></script>
+</body>
+</html>

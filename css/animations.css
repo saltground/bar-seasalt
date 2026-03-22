@@ -1,0 +1,77 @@
+/* =========================================================
+   Micro Animations & Transitions
+========================================================= */
+
+/* フェードイン（ページロード時全体） */
+.fade-in {
+    animation: fadeIn 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) forwards;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+/* 下からフェードインしてアップ（要素ごと） */
+.fade-in-up {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* アニメーションの遅延ユーティリティ */
+.delay-1 { animation-delay: 0.3s; }
+.delay-2 { animation-delay: 0.6s; }
+.delay-3 { animation-delay: 0.9s; }
+
+/* リンクホバー時の下線アニメーション */
+.hover-underline {
+    position: relative;
+    display: inline-block;
+}
+
+.hover-underline::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 1px;
+    bottom: -4px;
+    left: 0;
+    background-color: var(--accent-color);
+    transform-origin: bottom right;
+    transition: transform 0.4s cubic-bezier(0.86, 0, 0.07, 1);
+}
+
+.hover-underline:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+/* ページ固有のレイアウト・余白調整（Concept等） */
+.page-main {
+    padding-top: 5rem; /* ヘッダー分の余白 */
+    min-height: calc(100vh - 80px); /* フッターなどを除いた高さ */
+}
+
+.concept-text {
+    line-height: 2.2;
+    text-align: center;
+    letter-spacing: 0.08em;
+    font-weight: 300;
+}
+
+.concept-text p {
+    margin-bottom: 2rem;
+}

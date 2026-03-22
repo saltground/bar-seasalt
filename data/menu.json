@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "The Curator's Choice (ザ・キュレーターズ・チョイス)",
+    "ingredients": "Japanese Craft Gin / Yuzu / Matcha / Sea Salt",
+    "description": "和のトラディショナルなボタニカルに、現代のクラフトジンの潮流を掛け合わせたシグネチャー。グラスの縁に添えられた微かなシーソルトが、全体の輪郭を鮮明に描き出します。"
+  },
+  {
+    "id": 2,
+    "name": "Midnight Gallery (ミッドナイト・ギャラリー)",
+    "ingredients": "Aged Rum / Espresso / Dark Chocolate Liqueur / Orange Zest",
+    "description": "重厚な油絵を鑑賞するような、深く濃密な味わいのエスプレッソマティーニ・アレンジ。オレンジの香りが一筋の光のように差し込みます。"
+  },
+  {
+    "id": 3,
+    "name": "Silent Canvas (サイレント・キャンバス)",
+    "ingredients": "Vodka / Clarified Tomato Juice / Basil Oil / Black Pepper",
+    "description": "一見すると透明な液体の中に、複雑なうま味と香りが凝縮された一杯。あえて視覚的な情報を削ぎ落とすことで、味覚・嗅覚という「内なる鑑賞」を促します。"
+  }
+]

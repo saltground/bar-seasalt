@@ -1,0 +1,5 @@
+{
+  "home_to_menu_link": "menu.html",
+  "theme": "dark",
+  "notice": "※現在、設定ファイル（config.json）により、トップページの全てのMenuリンクは menu.html に向かうよう一括設定されています。プロモーション等で一時的に別のメニューページ（例: menu_autumn.html）に飛ばしたい場合は、上記の home_to_menu_link を変更するだけで反映されます。"
+}

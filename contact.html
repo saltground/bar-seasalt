@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Bar SeaSalt</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600&family=Noto+Serif+JP:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/animations.css">
+    <style>
+        .info-list {
+            margin-top: 2rem;
+        }
+        .info-list dt {
+            color: var(--accent-color);
+            font-size: 1.2rem;
+            margin-bottom: 0.5rem;
+            font-family: var(--font-serif);
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+        }
+        .info-list dd {
+            margin-bottom: 2rem;
+            margin-left: 0;
+            line-height: 1.8;
+            font-size: 0.95rem;
+        }
+        .info-list a {
+            color: var(--text-main);
+            text-decoration: underline;
+            text-decoration-color: var(--border-color);
+            text-underline-offset: 4px;
+        }
+        .info-list a:hover {
+            color: var(--accent-color);
+            text-decoration-color: var(--accent-color);
+        }
+        .contact-notice {
+            margin-top: 3rem;
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            border-top: 1px solid var(--border-color);
+            padding-top: 1.5rem;
+            line-height: 1.8;
+            letter-spacing: 0.05em;
+        }
+    </style>
+</head>
+<body class="fade-in">
+    <header class="global-header">
+        <h1 class="logo"><a href="index.html">Bar SeaSalt</a></h1>
+        <button class="hamburger-menu" aria-label="メニューを開く" id="menu-toggle">
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+        </button>
+        <nav class="global-nav" id="global-nav">
+            <ul>
+                <li><a href="concept.html">Concept</a></li>
+                <li><a href="menu.html" class="dynamic-menu-link">Menu</a></li>
+                <li><a href="access.html">Access</a></li>
+                <li><a href="contact.html" class="active">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="page-main">
+        <section class="container section-inner fade-in-up delay-1">
+            <h2 class="section-title">Contact Us</h2>
+            <p class="section-desc">お問い合わせ・ご予約について</p>
+            
+            <div class="contact-info">
+                <div style="text-align: center; margin-top: 2rem; padding: 3rem 1rem; border: 1px solid var(--border-color); border-radius: 4px; background: rgba(255, 255, 255, 0.02)">
+                    <p style="font-size: 1.25rem; letter-spacing: 0.1em; color: var(--text-main); line-height: 2;">
+                        店主のLINEまで直接ご連絡ください。
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="global-footer">
+        <p>&copy; <span id="current-year"></span> Bar SeaSalt. All rights reserved.</p>
+    </footer>
+
+    <script src="./js/main.js"></script>
+</body>
+</html>

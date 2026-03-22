@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bar SeaSalt | Curate & Sip</title>
+    <meta name="description" content="トレンドとトラディショナルが香るBar「Bar SeaSalt」。美術館のような非日常の空間で、芸術作品のような一杯を。">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600&family=Noto+Serif+JP:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/animations.css">
+</head>
+<body class="fade-in">
+    <header class="global-header">
+        <h1 class="logo"><a href="index.html">Bar SeaSalt</a></h1>
+        <!-- ハンバーガーメニュー (モバイル用) -->
+        <button class="hamburger-menu" aria-label="メニューを開く" id="menu-toggle">
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+        </button>
+        <nav class="global-nav" id="global-nav">
+            <ul>
+                <li><a href="concept.html">Concept</a></li>
+                <li><a href="menu.html" class="dynamic-menu-link">Menu</a></li>
+                <li><a href="access.html">Access</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="home-main">
+        <section class="hero">
+            <div class="hero-content fade-in-up delay-1">
+                <h2 class="hero-title">Curate & Sip</h2>
+                <p class="hero-subtitle">トレンドとトラディショナルが香るBar</p>
+                <a href="concept.html" class="btn-primary">Our Concept</a>
+            </div>
+        </section>
+
+        <section class="home-menu-link fade-in-up delay-2">
+            <div class="container section-inner">
+                <h3 class="section-title">Exhibition / Menu</h3>
+                <p class="section-desc">美術館の特別展のように、ゲストや私たちが持ち寄ったテーマを表現します。</p>
+                <a href="menu.html" class="btn-secondary dynamic-menu-link">View Exhibition</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="global-footer">
+        <p>&copy; <span id="current-year"></span> Bar SeaSalt. All rights reserved.</p>
+    </footer>
+
+    <!-- 設定情報をJSONデータブロックとして読み込み -->
+    <!-- 代替案として外部のdata/config.jsonをJS側でfetchします -->
+    <script src="./js/main.js"></script>
+</body>
+</html>
