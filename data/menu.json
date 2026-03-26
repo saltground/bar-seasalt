@@ -1,13 +1,85 @@
 [
   {
-    "category": "非公開",
-    "description": "カクテルメニューは当日公開いたします。",
+    "category": "Classic Cocktails",
+    "description": "時代を超えて愛される、伝統的なアートワーク。",
+    "items": [
+      {
+        "id": "cls-1",
+        "name": "Sidecar (サイドカー)",
+        "ingredients": "Cognac / Cointreau / Fresh Lemon Juice",
+        "description": "深く優雅な時間へと誘うコニャックベースの名作。オレンジの甘やかな香りにレモンの酸味がエッジを与え、洗練された余韻が名画のように心に残ります。"
+      },
+      {
+        "id": "cls-2",
+        "name": "Gimlet (ギムレット)",
+        "ingredients": "Dry Gin / Fresh Lime Juice / Simple Syrup",
+        "description": "シャープなジンとライムの瑞々しい酸味が織りなす極上のバランス。「ギムレットには早すぎる」という名ゼリフに思いを馳せながら味わう伝統的な一杯です。"
+      },
+      {
+        "id": "cls-3",
+        "name": "Aviation (アビエーション)",
+        "ingredients": "Dry Gin / Maraschino Liqueur / Creme de Violette / Lemon Juice",
+        "description": "スミレが描き出す、どこまでも澄んだ淡い青空を思わせるカクテル。大空に憧れた時代のエレガンスを纏い、視覚と味覚で空を旅する感覚を味わえます。"
+      },
+      {
+        "id": "cls-4",
+        "name": "Mockingbird (モッキンバード)",
+        "ingredients": "Tequila / Green Peppermint Liqueur / Fresh Lime Juice",
+        "description": "鮮やかなエメラルドグリーンが目を惹くテキーラベースの作品。野鳥のようにもたらされるミントの清涼感が、口の中で軽やかにさえずる爽快感を生み出します。"
+      }
+    ]
+  },
+  {
+    "category": "Tea Cocktails",
+    "description": "厳選された茶葉の香りを引き出した、安らぎと余韻を楽しむアートワーク。",
+    "items": [
+      {
+        "id": "tea-1",
+        "name": "Awabancha Gin Tonic (阿波晩茶ジントニック)",
+        "ingredients": "Gin infused with Awabancha / Tonic Water / Soda",
+        "description": "幻の乳酸発酵茶「阿波晩茶」特有のフルーティな酸味と奥深い香りをジンに浸漬。ボタニカルの複雑さと和の伝統が交差する、唯一無二のジントニックです。"
+      },
+      {
+        "id": "tea-2",
+        "name": "Sencha Gin Tonic (煎茶ジントニック)",
+        "ingredients": "Gin infused with Sencha / Tonic Water / Soda",
+        "description": "青々とした煎茶の爽やかな旨みと渋みが、ジンのジュニパーベリーと見事に調和する一杯。日本庭園を静かに散策しているかのような癒しをもたらします。"
+      },
+      {
+        "id": "tea-3",
+        "name": "Gyokuro Gin Tonic (玉露ジントニック)",
+        "ingredients": "Yamarrest Gin / Tonic Water / Soda",
+        "description": "希少な玉露のふくよかな甘みと海苔のような特有の香りを、クラフトジン（Yamarrest）の個性が引き立てる至高の作品。深い旨みが口いっぱいに広がります。"
+      },
+      {
+        "id": "tea-4",
+        "name": "Melon Black Tea (メロン・ブラックティー)",
+        "ingredients": "Melonade / Black Tea",
+        "description": "芳醇なメロンの香りを宿したリキュールに、紅茶の凛とした渋みを重ねた上品なティーカクテル。フルーツの甘みと茶葉の気品が絶妙に溶け合います。"
+      },
+      {
+        "id": "tea-5",
+        "name": "Apple Maron Black Tea (アップルマロン・ブラックティー)",
+        "ingredients": "Le Birlou / Black Tea",
+        "description": "リンゴの爽やかな果実味と栗（マロン）のほっくりとした甘さを持つリキュール「ル・ビルル」を紅茶とブレンド。秋の情景を描いた絵画のような、心温まる一杯です。"
+      }
+    ]
+  },
+  {
+    "category": "Signature & Botanical",
+    "description": "素材の個性をダイレクトに活かした、Bar SeaSaltの独創的なカクテル群。",
     "items": [
       {
         "id": "sig-1",
-        "name": "",
-        "ingredients": "",
-        "description": ""
+        "name": "Tequila Sonic (テキーラソニック)",
+        "ingredients": "Tequila / Tonic Water / Soda",
+        "description": "テキーラ本来の野生味あふれる香りを、トニックの心地よい苦味とソーダの弾ける清涼感で引き延ばした一杯。すっきりとクリアな飲み口が特徴です。"
+      },
+      {
+        "id": "sig-2",
+        "name": "Komatsuna Chu-hai (小松菜チューハイ)",
+        "ingredients": "Komatsuna / Sho-chu / Syrup / Soda",
+        "description": "色鮮やかな小松菜のフレッシュな青みと大地の息吹をそのままグラスに閉じ込めました。焼酎のキレとほのかな甘みが織りなす、新感覚のベジタブル・アート。"
       }
     ]
   }
