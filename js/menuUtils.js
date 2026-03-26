@@ -15,6 +15,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             const categoryWrapper = document.createElement('div');
             categoryWrapper.className = `category-section fade-in-up delay-${(catIndex % 3) + 1}`;
             categoryWrapper.style.marginBottom = '5rem';
+            categoryWrapper.style.padding = '0 1rem'; // スマホ表示において端いっぱいにならないよう左右にゆとり（1rem）を追加
             
             // カテゴリ見出し
             const categoryTitle = document.createElement('h3');
