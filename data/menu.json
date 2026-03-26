@@ -1,5 +1,23 @@
 [
   {
+    "category": "Signature & Botanical",
+    "description": "素材の個性をダイレクトに活かした、Bar SeaSaltの独創的なカクテル群。",
+    "items": [
+      {
+        "id": "sig-1",
+        "name": "Tequila Sonic (テキーラソニック)",
+        "ingredients": "Tequila / Tonic Water / Soda",
+        "description": "テキーラ本来の野生味あふれる香りを、トニックの心地よい苦味とソーダの弾ける清涼感で引き延ばした一杯。すっきりとクリアな飲み口が特徴です。"
+      },
+      {
+        "id": "sig-2",
+        "name": "Komatsuna Chu-hai (小松菜チューハイ)",
+        "ingredients": "Komatsuna / Sho-chu / Syrup / Soda",
+        "description": "色鮮やかな小松菜のフレッシュな青みをそのままグラスに閉じ込めました。野菜不足な社会人に向けた新感覚のベジタブル・アート。"
+      }
+    ]
+  },
+  {
     "category": "Classic Cocktails",
     "description": "時代を超えて愛される、伝統的なアートワーク。",
     "items": [
@@ -19,13 +37,13 @@
         "id": "cls-3",
         "name": "Aviation (アビエーション)",
         "ingredients": "Dry Gin / Maraschino Liqueur / Creme de Violette / Lemon Juice",
-        "description": "スミレが描き出す、どこまでも澄んだ淡い青空を思わせるカクテル。大空に憧れた時代のエレガンスを纏い、視覚と味覚で空を旅する感覚を味わえます。"
+        "description": "視覚と味覚で空を旅するカクテル。いってらっしゃい。"
       },
       {
         "id": "cls-4",
         "name": "Mockingbird (モッキンバード)",
         "ingredients": "Tequila / Green Peppermint Liqueur / Fresh Lime Juice",
-        "description": "鮮やかなエメラルドグリーンが目を惹くテキーラベースの作品。野鳥のようにもたらされるミントの清涼感が、口の中で軽やかにさえずる爽快感を生み出します。"
+        "description": "鮮やかなエメラルドグリーンが目を惹くテキーラベースの作品。野鳥のようにもたらされるミントの清涼感が、口の中で軽やかにさえずる爽快感、平たく表現するとぶっ飛ぶカクテルです。"
       }
     ]
   },
@@ -49,7 +67,7 @@
         "id": "tea-3",
         "name": "Gyokuro Gin Tonic (玉露ジントニック)",
         "ingredients": "Yamarrest Gin / Tonic Water / Soda",
-        "description": "希少な玉露のふくよかな甘みと海苔のような特有の香りを、クラフトジン（Yamarrest）の個性が引き立てる至高の作品。深い旨みが口いっぱいに広がります。"
+        "description": "希少な玉露のふくよかな甘みをクラフトジン（Yamarrest）の個性が引き立てる至高の作品。深い旨みが口いっぱいに広がります。"
       },
       {
         "id": "tea-4",
@@ -61,25 +79,7 @@
         "id": "tea-5",
         "name": "Apple Maron Black Tea (アップルマロン・ブラックティー)",
         "ingredients": "Le Birlou / Black Tea",
-        "description": "リンゴの爽やかな果実味と栗（マロン）のほっくりとした甘さを持つリキュール「ル・ビルル」を紅茶とブレンド。秋の情景を描いた絵画のような、心温まる一杯です。"
-      }
-    ]
-  },
-  {
-    "category": "Signature & Botanical",
-    "description": "素材の個性をダイレクトに活かした、Bar SeaSaltの独創的なカクテル群。",
-    "items": [
-      {
-        "id": "sig-1",
-        "name": "Tequila Sonic (テキーラソニック)",
-        "ingredients": "Tequila / Tonic Water / Soda",
-        "description": "テキーラ本来の野生味あふれる香りを、トニックの心地よい苦味とソーダの弾ける清涼感で引き延ばした一杯。すっきりとクリアな飲み口が特徴です。"
-      },
-      {
-        "id": "sig-2",
-        "name": "Komatsuna Chu-hai (小松菜チューハイ)",
-        "ingredients": "Komatsuna / Sho-chu / Syrup / Soda",
-        "description": "色鮮やかな小松菜のフレッシュな青みと大地の息吹をそのままグラスに閉じ込めました。焼酎のキレとほのかな甘みが織りなす、新感覚のベジタブル・アート。"
+        "description": "リンゴの爽やかな果実味と栗（マロン）のほっくりとした甘さを持つリキュール「ル・ビルル」を紅茶とブレンド。秋の情景を思い浮かべる心温まる一杯です。"
       }
     ]
   }
